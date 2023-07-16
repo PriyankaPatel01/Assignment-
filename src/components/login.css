@@ -1,0 +1,49 @@
+*
+{
+  margin: 0;
+  padding: 0; 
+  box-sizing: border-box;
+}
+
+.container
+{
+  padding: 10% 0 10% 30%;
+  height: 100vh;
+}
+
+.col 
+{
+  float: left;
+  width: 30%;
+  padding: 10px;
+  height: 400px; 
+}
+
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.wel
+{
+  padding: 5%;
+  text-align: center;
+  background-color: blueviolet;
+  color: wheat;
+}
+
+.colo
+{
+  background-color: wheat;
+  line-height: 20pt;
+}
+
+
+.btn
+{
+  padding: 5px;
+  background-color: rgb(133, 8, 250);
+  color: white;
+  
+}
